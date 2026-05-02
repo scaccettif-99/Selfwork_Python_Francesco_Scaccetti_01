@@ -1,0 +1,16 @@
+[project]
+name = "esercizi-ollama"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Francesco Scaccetti",email = "scaccettif@gmail.com"}
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openai (>=2.33.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
